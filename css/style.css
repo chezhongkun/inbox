@@ -317,15 +317,7 @@
   padding-left: 4rem;
 }
 body h1,
-font-family: 'Lato' h1,
-"PingFang SC" h1,
-"Microsoft YaHei" h1,
-sans-serif h1,
-body .h1,
-font-family: 'Lato' .h1,
-"PingFang SC" .h1,
-"Microsoft YaHei" .h1,
-sans-serif .h1 {
+body .h1 {
   display: block;
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -338,15 +330,7 @@ sans-serif .h1 {
   -webkit-font-smoothing: antialiased;
 }
 body h2,
-font-family: 'Lato' h2,
-"PingFang SC" h2,
-"Microsoft YaHei" h2,
-sans-serif h2,
-body .h2,
-font-family: 'Lato' .h2,
-"PingFang SC" .h2,
-"Microsoft YaHei" .h2,
-sans-serif .h2 {
+body .h2 {
   position: relative;
   display: block;
   margin-top: 2rem;
@@ -357,31 +341,15 @@ sans-serif .h2 {
   font-weight: bold;
   font-size: 1rem;
 }
-body h3,
-font-family: 'Lato' h3,
-"PingFang SC" h3,
-"Microsoft YaHei" h3,
-sans-serif h3 {
+body h3 {
   color: #383838;
   text-decoration: underline;
   font-weight: bold;
   font-size: 0.9rem;
 }
 body h4,
-font-family: 'Lato' h4,
-"PingFang SC" h4,
-"Microsoft YaHei" h4,
-sans-serif h4,
 body h5,
-font-family: 'Lato' h5,
-"PingFang SC" h5,
-"Microsoft YaHei" h5,
-sans-serif h5,
-body h6,
-font-family: 'Lato' h6,
-"PingFang SC" h6,
-"Microsoft YaHei" h6,
-sans-serif h6 {
+body h6 {
   display: inline;
   border-bottom: 1px dashed #8c8c8c;
   color: #8c8c8c;
@@ -390,162 +358,62 @@ sans-serif h6 {
   font-size: 0.9rem;
 }
 body h3,
-font-family: 'Lato' h3,
-"PingFang SC" h3,
-"Microsoft YaHei" h3,
-sans-serif h3,
 body h4,
-font-family: 'Lato' h4,
-"PingFang SC" h4,
-"Microsoft YaHei" h4,
-sans-serif h4,
 body h5,
-font-family: 'Lato' h5,
-"PingFang SC" h5,
-"Microsoft YaHei" h5,
-sans-serif h5,
-body h6,
-font-family: 'Lato' h6,
-"PingFang SC" h6,
-"Microsoft YaHei" h6,
-sans-serif h6 {
+body h6 {
   margin-top: 0.9rem;
   margin-bottom: 0.5rem;
 }
-body hr,
-font-family: 'Lato' hr,
-"PingFang SC" hr,
-"Microsoft YaHei" hr,
-sans-serif hr {
+body hr {
   border: 1px dashed #8c8c8c;
   margin: 0;
 }
-body strong,
-font-family: 'Lato' strong,
-"PingFang SC" strong,
-"Microsoft YaHei" strong,
-sans-serif strong {
+body strong {
   font-weight: bold;
 }
 body em,
-font-family: 'Lato' em,
-"PingFang SC" em,
-"Microsoft YaHei" em,
-sans-serif em,
-body cite,
-font-family: 'Lato' cite,
-"PingFang SC" cite,
-"Microsoft YaHei" cite,
-sans-serif cite {
+body cite {
   font-style: italic;
 }
 body sup,
-font-family: 'Lato' sup,
-"PingFang SC" sup,
-"Microsoft YaHei" sup,
-sans-serif sup,
-body sub,
-font-family: 'Lato' sub,
-"PingFang SC" sub,
-"Microsoft YaHei" sub,
-sans-serif sub {
+body sub {
   position: relative;
   vertical-align: baseline;
   font-size: 0.75em;
   line-height: 0;
 }
-body sup,
-font-family: 'Lato' sup,
-"PingFang SC" sup,
-"Microsoft YaHei" sup,
-sans-serif sup {
+body sup {
   top: -0.5em;
 }
-body sub,
-font-family: 'Lato' sub,
-"PingFang SC" sub,
-"Microsoft YaHei" sub,
-sans-serif sub {
+body sub {
   bottom: -0.2em;
 }
-body small,
-font-family: 'Lato' small,
-"PingFang SC" small,
-"Microsoft YaHei" small,
-sans-serif small {
+body small {
   font-size: 0.85em;
 }
 body acronym,
-font-family: 'Lato' acronym,
-"PingFang SC" acronym,
-"Microsoft YaHei" acronym,
-sans-serif acronym,
-body abbr,
-font-family: 'Lato' abbr,
-"PingFang SC" abbr,
-"Microsoft YaHei" abbr,
-sans-serif abbr {
+body abbr {
   border-bottom: 1px dotted;
 }
 body ul,
-font-family: 'Lato' ul,
-"PingFang SC" ul,
-"Microsoft YaHei" ul,
-sans-serif ul,
 body ol,
-font-family: 'Lato' ol,
-"PingFang SC" ol,
-"Microsoft YaHei" ol,
-sans-serif ol,
-body dl,
-font-family: 'Lato' dl,
-"PingFang SC" dl,
-"Microsoft YaHei" dl,
-sans-serif dl {
+body dl {
   line-height: 1.725;
 }
 body ul ul,
-font-family: 'Lato' ul ul,
-"PingFang SC" ul ul,
-"Microsoft YaHei" ul ul,
-sans-serif ul ul,
 body ol ul,
-font-family: 'Lato' ol ul,
-"PingFang SC" ol ul,
-"Microsoft YaHei" ol ul,
-sans-serif ol ul,
 body ul ol,
-font-family: 'Lato' ul ol,
-"PingFang SC" ul ol,
-"Microsoft YaHei" ul ol,
-sans-serif ul ol,
-body ol ol,
-font-family: 'Lato' ol ol,
-"PingFang SC" ol ol,
-"Microsoft YaHei" ol ol,
-sans-serif ol ol {
+body ol ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-body ol,
-font-family: 'Lato' ol,
-"PingFang SC" ol,
-"Microsoft YaHei" ol,
-sans-serif ol {
+body ol {
   list-style: decimal;
 }
-body dt,
-font-family: 'Lato' dt,
-"PingFang SC" dt,
-"Microsoft YaHei" dt,
-sans-serif dt {
+body dt {
   font-weight: bold;
 }
-body table,
-font-family: 'Lato' table,
-"PingFang SC" table,
-"Microsoft YaHei" table,
-sans-serif table {
+body table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
@@ -553,22 +421,14 @@ sans-serif table {
   overflow: auto;
   display: block;
 }
-body th,
-font-family: 'Lato' th,
-"PingFang SC" th,
-"Microsoft YaHei" th,
-sans-serif th {
+body th {
   padding: 8px;
   border-bottom: 1px dashed #666;
   color: #383838;
   font-weight: bold;
   font-size: 13px;
 }
-body td,
-font-family: 'Lato' td,
-"PingFang SC" td,
-"Microsoft YaHei" td,
-sans-serif td {
+body td {
   padding: 9px 8px 0;
   border-bottom: none;
 }
@@ -590,13 +450,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-body,
-font-family: 'Lato',
-"PingFang SC",
-"Microsoft YaHei",
-sans-serif {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+body {
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .content {
   position: relative;
