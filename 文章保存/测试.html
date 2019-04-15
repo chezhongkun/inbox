@@ -7,9 +7,9 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="说明 这只是个一文不名的独立博客，但折腾它是博主的一种乐趣（消遣）。 前文《搭建个人博客》只是简单说明了建站过程和定制点。 本文《折腾个人博客》作为本博客今后的「变更日志」； 也会回溯本博客的演变过程，简述具体做法及其考量； 顺便展开讲讲前文中提及的「定制点」（可折腾的东西）。     变更日志 折腾日志  2017.01 ~ 07 修改 PV 数的显示方式 由准确数，改为模糊数：1024 显示">
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:title" content="测试">
-<meta property="og:url" content="https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/index.html">
+<meta property="og:url" content="https://chezhongkun.github.io/inbox.github.io/文章保存/测试.html">
 <meta property="og:site_name" content="无心木偶">
 <meta property="og:description" content="说明 这只是个一文不名的独立博客，但折腾它是博主的一种乐趣（消遣）。 前文《搭建个人博客》只是简单说明了建站过程和定制点。 本文《折腾个人博客》作为本博客今后的「变更日志」； 也会回溯本博客的演变过程，简述具体做法及其考量； 顺便展开讲讲前文中提及的「定制点」（可折腾的东西）。     变更日志 折腾日志  2017.01 ~ 07 修改 PV 数的显示方式 由准确数，改为模糊数：1024 显示">
 <meta property="og:locale" content="zh-CN">
@@ -50,100 +50,48 @@
 
 <body class="max-width mx-auto px3 ltr">
     
-      <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
-  <span id="menu">
-    <span id="nav">
-      <ul>
-         
-          <li><a href="/inbox.github.io/">首页</a></li>
-         
-          <li><a href="/inbox.github.io/about/">关于</a></li>
-         
-          <li><a href="/inbox.github.io/archives/">归档</a></li>
-         
-          <li><a href="/inbox.github.io/projects_url">项目</a></li>
-         
-          <li><a href="/inbox.github.io/每日一练">每日一练</a></li>
-         
-          <li><a href="/inbox.github.io/文章保存">文章保存</a></li>
-        
-      </ul>
-    </span>
-    <br>
-    <span id="actions">
-      <ul>
-        
-        
-        <li><a class="icon" href="/inbox.github.io/2019/04/14/hello-world/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
-        
-        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">上一篇</span>
-      <span id="i-next" class="info" style="display:none;">下一篇</span>
-      <span id="i-top" class="info" style="display:none;">返回顶部</span>
-      <span id="i-share" class="info" style="display:none;">分享文章</span>
-    </span>
-    <br>
-    <div id="share" style="display: none">
-      <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&text=测试"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&is_video=false&description=测试"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=测试&body=Check out this article: https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&name=测试&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-</ul>
-
-    </div>
-    <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#说明"><span class="toc-number">1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#变更日志"><span class="toc-number">2.</span> <span class="toc-text">变更日志</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2017-01-07"><span class="toc-number">2.1.</span> <span class="toc-text">2017.01 ~ 07</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2015-01-2016-12"><span class="toc-number">2.2.</span> <span class="toc-text">2015.01 ~ 2016.12</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客类型"><span class="toc-number">3.</span> <span class="toc-text">博客类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#更简单的方式"><span class="toc-number">3.1.</span> <span class="toc-text">更简单的方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#特点"><span class="toc-number">3.2.</span> <span class="toc-text">特点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动态博客"><span class="toc-number">3.3.</span> <span class="toc-text">动态博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#静态博客"><span class="toc-number">3.4.</span> <span class="toc-text">静态博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#静态博客生成器"><span class="toc-number">3.5.</span> <span class="toc-text">静态博客生成器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#挂载空间"><span class="toc-number">3.6.</span> <span class="toc-text">挂载空间</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基础外观"><span class="toc-number">4.</span> <span class="toc-text">基础外观</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#博客主题"><span class="toc-number">4.1.</span> <span class="toc-text">博客主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文章内容"><span class="toc-number">4.2.</span> <span class="toc-text">文章内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字体"><span class="toc-number">4.3.</span> <span class="toc-text">字体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图标（字体）"><span class="toc-number">4.4.</span> <span class="toc-text">图标（字体）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#FontAwesome-用法"><span class="toc-number">4.4.1.</span> <span class="toc-text">FontAwesome 用法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#class-样式"><span class="toc-number">4.4.1.1.</span> <span class="toc-text">class 样式</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网站-logo"><span class="toc-number">4.5.</span> <span class="toc-text">网站 logo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS"><span class="toc-number">4.6.</span> <span class="toc-text">CSS</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#CSS-框架"><span class="toc-number">4.6.1.</span> <span class="toc-text">CSS 框架</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配色"><span class="toc-number">4.7.</span> <span class="toc-text">配色</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主页信息流"><span class="toc-number">4.8.</span> <span class="toc-text">主页信息流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#顶栏"><span class="toc-number">4.9.</span> <span class="toc-text">顶栏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#边栏"><span class="toc-number">4.10.</span> <span class="toc-text">边栏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#页脚"><span class="toc-number">4.11.</span> <span class="toc-text">页脚</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#拓展元素"><span class="toc-number">5.</span> <span class="toc-text">拓展元素</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#「评论」系统"><span class="toc-number">5.1.</span> <span class="toc-text">「评论」系统</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#延展特性"><span class="toc-number">5.1.1.</span> <span class="toc-text">延展特性</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#「分享」组件"><span class="toc-number">5.2.</span> <span class="toc-text">「分享」组件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#友链"><span class="toc-number">5.3.</span> <span class="toc-text">友链</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PV-Top-N-热榜"><span class="toc-number">5.4.</span> <span class="toc-text">PV Top N 热榜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#随机显示名言"><span class="toc-number">5.5.</span> <span class="toc-text">随机显示名言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RSS-订阅"><span class="toc-number">5.6.</span> <span class="toc-text">RSS 订阅</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#署名协议"><span class="toc-number">5.7.</span> <span class="toc-text">署名协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#打赏"><span class="toc-number">5.8.</span> <span class="toc-text">打赏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#404-页面"><span class="toc-number">5.9.</span> <span class="toc-text">404 页面</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#进阶做法"><span class="toc-number">5.9.1.</span> <span class="toc-text">进阶做法</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#npm"><span class="toc-number">5.10.</span> <span class="toc-text">npm</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#站长进阶"><span class="toc-number">6.</span> <span class="toc-text">站长进阶</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#网站分析统计"><span class="toc-number">6.1.</span> <span class="toc-text">网站分析统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#站长工具"><span class="toc-number">6.2.</span> <span class="toc-text">站长工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#搜索引擎收录"><span class="toc-number">6.2.1.</span> <span class="toc-text">搜索引擎收录</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#站内搜索"><span class="toc-number">6.3.</span> <span class="toc-text">站内搜索</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网站域名"><span class="toc-number">6.4.</span> <span class="toc-text">网站域名</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#网站备案"><span class="toc-number">6.4.1.</span> <span class="toc-text">网站备案</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#域名的-DNS-解析"><span class="toc-number">6.5.</span> <span class="toc-text">域名的 DNS 解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图床-与-图片"><span class="toc-number">6.6.</span> <span class="toc-text">图床 与 图片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#访问速度优化"><span class="toc-number">6.7.</span> <span class="toc-text">访问速度优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网站结构"><span class="toc-number">6.8.</span> <span class="toc-text">网站结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#自动化的尝试"><span class="toc-number">6.9.</span> <span class="toc-text">自动化的尝试</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Evernote-笔记导出为-Hexo-文章"><span class="toc-number">6.9.1.</span> <span class="toc-text">Evernote 笔记导出为 Hexo 文章</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#其它经验"><span class="toc-number">6.9.2.</span> <span class="toc-text">其它经验</span></a></li></ol></li></ol></li></ol>
-    </div>
-  </span>
-</div>
-
-    
     <div class="content index py4">
         
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header>
+          <header id="header">
+  <a href="/inbox.github.io/">
+  
     
-    <h1 class="posttitle" itemprop="name headline">
-        测试
-    </h1>
-
-
-
-    <div class="meta">
-      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">无心木偶</span>
-      </span>
+      <div id="logo" style="background-image: url(/inbox.github.io/images/logo.png);"></div>
+    
+  
+    <div id="title">
+      <h1>无心木偶</h1>
+    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+      </li>
+       
+        <li><a href="/inbox.github.io/">首页</a></li>
+       
+        <li><a href="/inbox.github.io/about/">关于</a></li>
+       
+        <li><a href="/inbox.github.io/archives/">归档</a></li>
+       
+        <li><a href="/inbox.github.io/projects_url">项目</a></li>
+       
+        <li><a href="/inbox.github.io/每日一练">每日一练</a></li>
+       
+        <li><a href="/inbox.github.io/文章保存">文章保存</a></li>
       
-    <div class="postdate">
-      
-        <time datetime="2019-04-15T05:38:54.000Z" itemprop="datePublished">2019-04-15</time>
+    </ul>
+  </div>
+</header>
+
         
-      
-    </div>
-
-
-      
-
-      
-
-    </div>
-  </header>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   
 
   <div class="content" itemprop="articleBody">
-    <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ul>
+      
+          <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ul>
 <li>这只是个一文不名的独立博客，但折腾它是博主的一种乐趣（消遣）。</li>
 <li>前文《<a href="https://icehe.me/web/build_blog/" target="_blank" rel="noopener">搭建个人博客</a>》只是简单说明了建站过程和定制点。</li>
 <li>本文《折腾个人博客》作为本博客今后的<strong>「变更日志」</strong>；<ul>
@@ -1428,62 +1376,9 @@ span class=&quot;bold hidden&quot;&gt;隐藏元素span&gt;
 </li>
 </ul>
 
+        
   </div>
 </article>
-
-
-
-        
-          <div id="footer-post-container">
-  <div id="footer-post">
-
-    <div id="nav-footer" style="display: none">
-      <ul>
-         
-          <li><a href="/inbox.github.io/">首页</a></li>
-         
-          <li><a href="/inbox.github.io/about/">关于</a></li>
-         
-          <li><a href="/inbox.github.io/archives/">归档</a></li>
-         
-          <li><a href="/inbox.github.io/projects_url">项目</a></li>
-         
-          <li><a href="/inbox.github.io/每日一练">每日一练</a></li>
-         
-          <li><a href="/inbox.github.io/文章保存">文章保存</a></li>
-        
-      </ul>
-    </div>
-
-    <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#说明"><span class="toc-number">1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#变更日志"><span class="toc-number">2.</span> <span class="toc-text">变更日志</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2017-01-07"><span class="toc-number">2.1.</span> <span class="toc-text">2017.01 ~ 07</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2015-01-2016-12"><span class="toc-number">2.2.</span> <span class="toc-text">2015.01 ~ 2016.12</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客类型"><span class="toc-number">3.</span> <span class="toc-text">博客类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#更简单的方式"><span class="toc-number">3.1.</span> <span class="toc-text">更简单的方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#特点"><span class="toc-number">3.2.</span> <span class="toc-text">特点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动态博客"><span class="toc-number">3.3.</span> <span class="toc-text">动态博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#静态博客"><span class="toc-number">3.4.</span> <span class="toc-text">静态博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#静态博客生成器"><span class="toc-number">3.5.</span> <span class="toc-text">静态博客生成器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#挂载空间"><span class="toc-number">3.6.</span> <span class="toc-text">挂载空间</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基础外观"><span class="toc-number">4.</span> <span class="toc-text">基础外观</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#博客主题"><span class="toc-number">4.1.</span> <span class="toc-text">博客主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文章内容"><span class="toc-number">4.2.</span> <span class="toc-text">文章内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#字体"><span class="toc-number">4.3.</span> <span class="toc-text">字体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图标（字体）"><span class="toc-number">4.4.</span> <span class="toc-text">图标（字体）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#FontAwesome-用法"><span class="toc-number">4.4.1.</span> <span class="toc-text">FontAwesome 用法</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#class-样式"><span class="toc-number">4.4.1.1.</span> <span class="toc-text">class 样式</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网站-logo"><span class="toc-number">4.5.</span> <span class="toc-text">网站 logo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS"><span class="toc-number">4.6.</span> <span class="toc-text">CSS</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#CSS-框架"><span class="toc-number">4.6.1.</span> <span class="toc-text">CSS 框架</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配色"><span class="toc-number">4.7.</span> <span class="toc-text">配色</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主页信息流"><span class="toc-number">4.8.</span> <span class="toc-text">主页信息流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#顶栏"><span class="toc-number">4.9.</span> <span class="toc-text">顶栏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#边栏"><span class="toc-number">4.10.</span> <span class="toc-text">边栏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#页脚"><span class="toc-number">4.11.</span> <span class="toc-text">页脚</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#拓展元素"><span class="toc-number">5.</span> <span class="toc-text">拓展元素</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#「评论」系统"><span class="toc-number">5.1.</span> <span class="toc-text">「评论」系统</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#延展特性"><span class="toc-number">5.1.1.</span> <span class="toc-text">延展特性</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#「分享」组件"><span class="toc-number">5.2.</span> <span class="toc-text">「分享」组件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#友链"><span class="toc-number">5.3.</span> <span class="toc-text">友链</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PV-Top-N-热榜"><span class="toc-number">5.4.</span> <span class="toc-text">PV Top N 热榜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#随机显示名言"><span class="toc-number">5.5.</span> <span class="toc-text">随机显示名言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RSS-订阅"><span class="toc-number">5.6.</span> <span class="toc-text">RSS 订阅</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#署名协议"><span class="toc-number">5.7.</span> <span class="toc-text">署名协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#打赏"><span class="toc-number">5.8.</span> <span class="toc-text">打赏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#404-页面"><span class="toc-number">5.9.</span> <span class="toc-text">404 页面</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#进阶做法"><span class="toc-number">5.9.1.</span> <span class="toc-text">进阶做法</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#npm"><span class="toc-number">5.10.</span> <span class="toc-text">npm</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#站长进阶"><span class="toc-number">6.</span> <span class="toc-text">站长进阶</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#网站分析统计"><span class="toc-number">6.1.</span> <span class="toc-text">网站分析统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#站长工具"><span class="toc-number">6.2.</span> <span class="toc-text">站长工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#搜索引擎收录"><span class="toc-number">6.2.1.</span> <span class="toc-text">搜索引擎收录</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#站内搜索"><span class="toc-number">6.3.</span> <span class="toc-text">站内搜索</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网站域名"><span class="toc-number">6.4.</span> <span class="toc-text">网站域名</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#网站备案"><span class="toc-number">6.4.1.</span> <span class="toc-text">网站备案</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#域名的-DNS-解析"><span class="toc-number">6.5.</span> <span class="toc-text">域名的 DNS 解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图床-与-图片"><span class="toc-number">6.6.</span> <span class="toc-text">图床 与 图片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#访问速度优化"><span class="toc-number">6.7.</span> <span class="toc-text">访问速度优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网站结构"><span class="toc-number">6.8.</span> <span class="toc-text">网站结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#自动化的尝试"><span class="toc-number">6.9.</span> <span class="toc-text">自动化的尝试</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Evernote-笔记导出为-Hexo-文章"><span class="toc-number">6.9.1.</span> <span class="toc-text">Evernote 笔记导出为 Hexo 文章</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#其它经验"><span class="toc-number">6.9.2.</span> <span class="toc-text">其它经验</span></a></li></ol></li></ol></li></ol>
-    </div>
-
-    <div id="share-footer" style="display: none">
-      <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&text=测试"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&is_video=false&description=测试"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=测试&body=Check out this article: https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&title=测试"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://chezhongkun.github.io/inbox.github.io/2019/04/15/测试/&name=测试&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-</ul>
-
-    </div>
-
-    <div id="actions-footer">
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
-    </div>
-
-  </div>
-</div>
 
         
         <footer id="footer">
